@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Techscoopr - Mobile</title>
-
+	<link rel="stylesheet" href="http://mb.techscoopr.com/assets/css/swiper.css">
 	<style type="text/css">
 
 	::selection{ background-color: #E13300; color: white; }
@@ -76,6 +76,7 @@
 	</div>
 </div>
 <script src="http://mb.techscoopr.com/assets/js/jquery-1.11.1.min.js"></script>
+<script src="http://mb.techscoopr.com/assets/js/swiper.min.js"></script>
 <script src="http://mb.techscoopr.com/assets/js/app.js"></script>
 </body>
 </html>
