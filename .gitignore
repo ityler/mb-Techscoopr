@@ -7,7 +7,7 @@
 */config/*
 *.htaccess
 *.log
-*/system/*
+*system
 
 # =========================
 # Operating System Files
