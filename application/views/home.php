@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
 	<title>Techscoopr - Mobile</title>
-	<link rel="stylesheet" href="http://mb.techscoopr.com/assets/css/swiper.css">
+	<link rel="stylesheet" href="http://mb.techscoopr.com/assets/css/style.css?12345">
 	<style type="text/css">
 
 	::selection{ background-color: #E13300; color: white; }
@@ -12,9 +14,12 @@
 
 	body {
 		background-color: #fff;
-		margin: 40px;
 		font: 13px/20px normal Helvetica, Arial, sans-serif;
 		color: #4F5155;
+		height:100%;
+		width:100%;
+		position:absolute;
+		top:0;
 	}
 
 	a {
@@ -43,10 +48,6 @@
 		margin: 14px 0 14px 0;
 		padding: 12px 10px 12px 10px;
 	}
-
-	#body{
-		margin: 0 15px 0 15px;
-	}
 	
 	p.footer{
 		text-align: right;
@@ -57,26 +58,158 @@
 		margin: 20px 0 0 0;
 	}
 	
-	#container{
+/*	#container{
 		margin: 10px;
 		border: 1px solid #D0D0D0;
 		-webkit-box-shadow: 0 0 8px #D0D0D0;
 	}
+*/
 	</style>
+<style>
+
+#container {
+	width:100%;
+	height:100%;
+}
+.content {
+	width: 100%;
+	height:100%;
+}
+.row {
+	width:100%;
+	height:30%;
+	margin: 0 auto;
+}
+.lft {
+	width:50%;
+	height:100%;
+	float:left;
+}
+.rgt {
+	width:50%;
+	height:100%;
+	float:left;
+}
+.item {
+	width:95%;
+	height:100%;
+}
+
+.item-img {
+	height:100%;
+	width:100%;
+}
+
+</style>
 </head>
 <body>
 <div id="container">
 	<h1>MB - Techscoopr</h1>
-	<div id="body">
-
+		<div class="content">
+			<div class="row">
+				<div class="lft">
+					<div class="item">
+						<img class="item-img" src="http://mb.techscoopr.com/assets/img_hld.png"/>
+						<p>Title1</p>
+					</div>
+				</div>
+				<div class="rgt">
+					<div class="item">
+						<img class="item-img" src="http://mb.techscoopr.com/assets/img_hld.png"/>
+						<p>Title2</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="lft">
+					<div class="item">
+						<img class="item-img" src="http://mb.techscoopr.com/assets/img_hld.png"/>
+						<p>Title3</p>
+					</div>
+				</div>
+				<div class="rgt">
+					<div class="item">
+						<img class="item-img" src="http://mb.techscoopr.com/assets/img_hld.png"/>
+						<p>Title4</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="lft">
+					<div class="item">
+						<img class="item-img" src="http://mb.techscoopr.com/assets/img_hld.png"/>
+						<p>Title5</p>
+					</div>
+				</div>
+				<div class="rgt">
+					<div class="item">
+						<img class="item-img" src="http://mb.techscoopr.com/assets/img_hld.png"/>
+						<p>Title6</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="lft">
+					<div class="item">
+						<img class="item-img" src="http://mb.techscoopr.com/assets/img_hld.png"/>
+						<p>Title7</p>
+					</div>
+				</div>
+				<div class="rgt">
+					<div class="item">
+						<img class="item-img" src="http://mb.techscoopr.com/assets/img_hld.png"/>
+						<p>Title8</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="lft">
+					<div class="item">
+						<img class="item-img" src="http://mb.techscoopr.com/assets/img_hld.png"/>
+						<p>Title9</p>
+					</div>
+				</div>
+				<div class="rgt">
+					<div class="item">
+						<img class="item-img" src="http://mb.techscoopr.com/assets/img_hld.png"/>
+						<p>Title10</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="lft">
+					<div class="item">
+						<img class="item-img" src="http://mb.techscoopr.com/assets/img_hld.png"/>
+						<p>Title11</p>
+					</div>
+				</div>
+				<div class="rgt">
+					<div class="item">
+						<img class="item-img" src="http://mb.techscoopr.com/assets/img_hld.png"/>
+						<p>Title12</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="lft">
+					<div class="item">
+						<img class="item-img" src="http://mb.techscoopr.com/assets/img_hld.png"/>
+						<p>Title13</p>
+					</div>
+				</div>
+				<div class="rgt">
+					<div class="item">
+						<img class="item-img" src="http://mb.techscoopr.com/assets/img_hld.png"/>
+						<p>Title14</p>
+					</div>
+				</div>
+			</div>
 	</div>
-	<div>
 		<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds</p>	
 		<p class="footer">Page rendered with <strong>{memory_usage}</strong> memory</p>
-	</div>
 </div>
 <script src="http://mb.techscoopr.com/assets/js/jquery-1.11.1.min.js"></script>
-<script src="http://mb.techscoopr.com/assets/js/swiper.min.js"></script>
+<script src="http://mb.techscoopr.com/assets/js/is.min.js"></script>
 <script src="http://mb.techscoopr.com/assets/js/app.js"></script>
 </body>
 </html>

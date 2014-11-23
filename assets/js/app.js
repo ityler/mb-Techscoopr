@@ -3,8 +3,8 @@ var data = {};                             // Admin configs
 var dttm = $.now();                         // Init date/time object
 
 $(document).ready(function(){
-    
-    getNews();
+    getDeviceDimention();
+   // getNews();
 
     /* Get news data */
     function getNews(){
@@ -49,5 +49,24 @@ $(document).ready(function(){
             status.addClass("err");     // Add error class
         }
     };
+
+    
+            function getDeviceDimention() {
+                console.log("Device Dimention using Ionic");
+                var width = $(window).width();
+                var height = $(window).height();
+                console.log("Width = " + width);
+                console.log("Height = " + height);
+            }
+ /*   $(function(){
+  var mySwiper = $('.swiper-container').swiper({
+    //Your options here:
+    mode:'horizontal',
+    loop: true
+    //etc..
+  }); 
+})
+*/
+
 });
 
